@@ -13,4 +13,8 @@
         completions."
     </string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="cityName">Ciudad</string>
+    <string name="addFoto">Añadir Foto</string>
+    <string name="toolbarList">Lista de casas</string>
+    <string name="addHome">Añadir casa</string>
 </resources>

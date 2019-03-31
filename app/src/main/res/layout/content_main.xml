@@ -5,7 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
+    tools:context=".Activities.HomeSharingListActivity"
     tools:showIn="@layout/activity_main">
+
+
+    <fragment
+        android:id="@+id/article_fragment"
+        android:name="dmorenoar.uoc.pra1_uoc.Fragments.ItemFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
 
 </android.support.constraint.ConstraintLayout>
